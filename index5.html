@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <!-- Input field for user -->
+<input type="text" id="name">
+<!-- Button to display input -->
+<button onclick="display()">Submit</button>
+<!-- Paragraph to show result -->
+<p id="result"></p>
+<script>
+function display(){
+// Get value entered by user
+let x = document.getElementById("name").value;
+// Display user input inside paragraph
+document.getElementById("result").innerHTML = x;
+}
+</script>
+</body>
+</html>
